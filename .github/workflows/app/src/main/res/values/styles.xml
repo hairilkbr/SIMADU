@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="simadu_blue">#0756A4</color>
+    <color name="simadu_gold">#F3C969</color>
+    <style name="Theme.SIMADU" parent="Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:statusBarColor">@color/simadu_blue</item>
+        <item name="android:navigationBarColor">@color/simadu_blue</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowSplashScreenBackground">@color/simadu_blue</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_simadu</item>
+        <item name="postSplashScreenTheme">@style/Theme.SIMADU</item>
+    </style>
+</resources>
