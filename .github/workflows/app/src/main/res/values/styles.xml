@@ -1,8 +1,11 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="simadu_blue">#0756A4</color>
     <color name="simadu_gold">#F3C969</color>
-    <style name="Theme.SIMADU" parent="Theme.Material.Light.NoActionBar">
+
+    <style name="Theme.SIMADU"
+        parent="@android:style/Theme.Material.Light.NoActionBar">
         <item name="android:fontFamily">sans</item>
         <item name="android:statusBarColor">@color/simadu_blue</item>
         <item name="android:navigationBarColor">@color/simadu_blue</item>
